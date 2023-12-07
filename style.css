@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -84,5 +86,6 @@ body {
 
 .hero-image {
     height: auto;
-    width: 100%;
+    min-width: 50%;
+    max-width: 100%;
 }
