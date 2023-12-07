@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    border: 2px solid red;
 }
 
 body {
@@ -17,11 +18,31 @@ body {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
+    padding: 0 100px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.links-container {
+    display: flex;
+    gap: 16px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #e5e7eb;
 }
 
 .hero-title {
@@ -35,6 +56,11 @@ body {
     color: #e5e7eb;
 }
 
-.header {
+.hero-image {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    background-color: grey;
 }
