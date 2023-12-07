@@ -1,1 +1,27 @@
 /* landing-page */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+}
+
+.footer,
+.header-container {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+}
