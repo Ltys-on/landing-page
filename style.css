@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 body {
@@ -76,7 +77,6 @@ body {
     background-color: #3882f6;
     padding: 8px 32px;
     border-radius: 8px;
-    border: none;
 }
 
 .hero-image-container {
