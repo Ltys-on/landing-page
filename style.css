@@ -60,12 +60,12 @@ body {
 .hero-container {
     display: flex;
     margin-bottom: 150px;
+    gap: 30px;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .hero-blurb {
@@ -81,15 +81,9 @@ body {
     border-radius: 8px;
 }
 
-.hero-image-container {
-    flex: 1;
-    margin-left: 30px;
-}
-
 .hero-image {
     height: auto;
-    min-width: 100%;
-    max-width: 100%;
+    width: 500px;
 }
 
 .information-container {
