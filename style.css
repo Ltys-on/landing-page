@@ -73,6 +73,7 @@ body {
     margin-bottom: 16px;
 }
 
+.call-to-action-button,
 .hero-button {
     width: fit-content;
     background-color: #3882f6;
@@ -132,6 +133,7 @@ body {
     height: auto;
     text-align: center;
     color: rgb(124, 123, 123);
+    font-size: 18px;
 }
 
 .quote-container {
@@ -161,4 +163,48 @@ body {
     font-weight: bolder;
     font-style: normal;
     margin-top: 16px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 50px 100px;
+}
+
+.call-to-action-button-container,
+.call-to-action-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.call-to-action-button-container {
+    align-items: center;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-to-action-button,
+.call-to-action-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.call-to-action-button {
+    background-color: none;
+    border: 2px solid #f9faf8;
 }
